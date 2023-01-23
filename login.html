@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Esen</title>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-database.js"></script>
+
+
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="header-area">
+
+        <div class="cagriient-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+
+                    <nav class="classy-navbar justify-content-between" id="cagriientNav">
+
+                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
+
+
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+
+                        <div class="classy-menu">
+
+
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">Ana Sayfa</a></li>
+                                    <li><a href="vstlibrary-store.html">VSTS</a></li>
+                                    <li><a href="soundlibrary-store.html">Ses Kütüphaneleri</a></li>
+                                    <li><a href="blog.html">Söyleşiler</a></li>
+                                    <li><a href="contact.html">İletişim</a></li>
+                                </ul>
+
+
+                                <div class="login-register-cart-button d-flex align-items-center">
+
+                                    <div class="login-register-btn mr-50">
+                                        <a href="login.html" id="loginBtn">Giriş Yap / Kayıt Ol</a>
+                                    </div>
+
+
+                                    <div class="cart-btn">
+                                        <p><span class="icon-shopping-cart"></span> <span class="quantity">1</span></p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="cutting-area bg-img bg-overlay" style="background-image: url(img/bg-img/loginbg.jpg);">
+        <div class="cutContent">
+            <p>Giriş Yap</p>
+            <h2>Hoş Geldiniz</h2>
+        </div>
+    </section>
+
+    <section class="login-area section-padding-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8">
+                    <div class="login-content">
+                        <h3>Esen</h3>
+
+                        <div class="login-form">
+                            <form action="#" method="post">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email Adresi</label>
+                                    <input type="email" class="form-control" id="Emailid" aria-describedby="emailHelp" placeholder="E-mail">
+                                    <small id="emailHelp" class="form-text text-muted"><i class="fa fa-lock mr-2"></i>Kişisel bilgilerinizi asla kimse ile paylaşmayacağız.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Parola</label>
+                                    <input type="password" class="form-control" id="Pass" placeholder="Parola">
+                                </div>
+                                <button onclick="login()" type=" submit " class="btn cagriient-btn mt-30 ">Giriş Yap</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-area ">
+        <div class="container ">
+            <div class="row d-flex flex-wrap align-items-center ">
+                <div class="col-12 col-md-6 ">
+                    <a href="# "><img style="width: 150px; " src="img/core-img/logo.png " alt=" "></a>
+                    <p class="copywrite-text ">
+                        <a href="# ">
+                            
+                            Copyright &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script> All rights reserved by CAGRII Entertainment
+                            
+                    </p>
+                </div>
+        </div>
+        </div>
+    </footer>
+
+
+ 
+    <script src="js/jquery/jquery-2.2.4.min.js "></script>
+   
+    <script src="js/bootstrap/popper.min.js "></script>
+ 
+    <script src="js/bootstrap/bootstrap.min.js "></script>
+    
+    <script src="js/plugins/plugins.js "></script>
+    
+    <script src="js/active.js "></script>
+    <script src="js/login.js"></script>
+
+</body>
+
+</html>
