@@ -56,6 +56,10 @@ p {
     font-weight: 400;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a,
 a:hover,
 a:focus {
